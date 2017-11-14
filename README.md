@@ -1,5 +1,24 @@
 https://www.youtube.com/watch?v=NMiYaaB0-fI
 
+to add Bootstrap ... npm i bootstrap jquery ... then in index.js(author was not sure about these lines, though) ...
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+import App from './App';
+import registerServiceWorker from './registerServiceWorker';
+
+import 'bootstrap/dist/css/bootstrap.css';
+import './index.css';
+global.jQuery = require('jquery');
+require('bootstrap');
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
